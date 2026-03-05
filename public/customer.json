@@ -1,0 +1,137 @@
+[
+  {
+    "id": "TKT-1001",
+    "title": "Payment Gateway Timeout",
+    "description": "Customers are reporting 504 errors when attempting to checkout using Stripe.",
+    "customer": "Global Retail Inc.",
+    "priority": "Critical",
+    "status": "In Progress",
+    "createdAt": "2026-03-01T08:30:00Z"
+  },
+  {
+    "id": "TKT-1002",
+    "title": "Update Logo in Header",
+    "description": "Request to swap the old branding with the new high-res SVG logo.",
+    "customer": "EcoStream",
+    "priority": "Low",
+    "status": "Completed",
+    "createdAt": "2026-03-01T09:15:00Z"
+  },
+  {
+    "id": "TKT-1003",
+    "title": "Password Reset Email Not Sending",
+    "description": "Users are not receiving the recovery link after clicking 'Forgot Password'.",
+    "customer": "TechFlow Solutions",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2026-03-02T10:00:00Z"
+  },
+  {
+    "id": "TKT-1004",
+    "title": "Export to CSV Failing",
+    "description": "The analytics dashboard crashes when trying to export reports larger than 50MB.",
+    "customer": "DataViz Corp",
+    "priority": "Medium",
+    "status": "In Progress",
+    "createdAt": "2026-03-02T11:45:00Z"
+  },
+  {
+    "id": "TKT-1005",
+    "title": "Mobile App UI Glitch",
+    "description": "The 'Submit' button is cut off on iPhone SE screen sizes.",
+    "customer": "AppVentures",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2026-03-03T14:20:00Z"
+  },
+  {
+    "id": "TKT-1006",
+    "title": "Database Migration Script",
+    "description": "Prepare the SQL scripts for the upcoming v2.4 schema update.",
+    "customer": "Internal",
+    "priority": "High",
+    "status": "Pending",
+    "createdAt": "2026-03-03T16:00:00Z"
+  },
+  {
+    "id": "TKT-1007",
+    "title": "Dark Mode Toggle Missing",
+    "description": "The toggle switch disappeared after the last CSS deployment.",
+    "customer": "Creative Minds",
+    "priority": "Low",
+    "status": "Completed",
+    "createdAt": "2026-03-04T09:05:00Z"
+  },
+  {
+    "id": "TKT-1008",
+    "title": "API Authentication Failure",
+    "description": "OAuth2 tokens are expiring prematurely, causing session drops.",
+    "customer": "SecureBank",
+    "priority": "Critical",
+    "status": "In Progress",
+    "createdAt": "2026-03-04T10:30:00Z"
+  },
+  {
+    "id": "TKT-1009",
+    "title": "Slow Dashboard Loading",
+    "description": "Initial load time for the main dashboard is exceeding 8 seconds.",
+    "customer": "Logistics Pro",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2026-03-04T13:10:00Z"
+  },
+  {
+    "id": "TKT-1010",
+    "title": "Update Documentation",
+    "description": "Add the new webhook endpoints to the public API documentation.",
+    "customer": "Internal",
+    "priority": "Low",
+    "status": "Pending",
+    "createdAt": "2026-03-05T08:00:00Z"
+  },
+  {
+    "id": "TKT-1011",
+    "title": "Broken Footer Link",
+    "description": "The 'Privacy Policy' link in the footer leads to a 404 page.",
+    "customer": "LegalEase",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2026-03-05T11:25:00Z"
+  },
+  {
+    "id": "TKT-1012",
+    "title": "New User Onboarding Flow",
+    "description": "Implement the multi-step welcome wizard for first-time signups.",
+    "customer": "Growthly",
+    "priority": "Medium",
+    "status": "In Progress",
+    "createdAt": "2026-03-05T15:40:00Z"
+  },
+  {
+    "id": "TKT-1013",
+    "title": "Server Resource Alert",
+    "description": "CPU usage on node-04 has been sustained at 95% for over an hour.",
+    "customer": "CloudOps",
+    "priority": "Critical",
+    "status": "Resolved",
+    "createdAt": "2026-03-06T01:15:00Z"
+  },
+  {
+    "id": "TKT-1014",
+    "title": "Typo in Marketing Email",
+    "description": "Correct 'Recieve' to 'Receive' in the March newsletter template.",
+    "customer": "MarketGen",
+    "priority": "Low",
+    "status": "Completed",
+    "createdAt": "2026-03-06T04:50:00Z"
+  },
+  {
+    "id": "TKT-1015",
+    "title": "Bulk Upload Feature Request",
+    "description": "Customer wants to upload multiple inventory items via Excel instead of one by one.",
+    "customer": "Warehouse One",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2026-03-06T06:00:00Z"
+  }
+]
