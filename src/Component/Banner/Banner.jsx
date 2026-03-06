@@ -16,7 +16,7 @@ const Banner = () => {
                <img src={img1} alt="" />
 
             </div>
-            <div className="flex justify-between items-center
+            <div className="flex justify-between items-center 
             bg-gradient-to-r from-green-300 via-green-500  to-green-800
              w-full rounded-3xl">
                <img src={img1} alt="" />
