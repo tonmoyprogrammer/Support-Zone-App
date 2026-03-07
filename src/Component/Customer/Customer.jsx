@@ -23,8 +23,9 @@ const Customer = ({ customer}) => {
         
        
     return (
-        <div className="rounded-2xl shadow-4xl bg-white p-4 space-y-3">
-            <div className="flex flex-col-reverse md:flex-row justify-between items-center w-full ">
+        <div className="rounded-2xl shadow-4xl bg-white p-5 space-y-3">
+            <div className="flex flex-col-reverse md:flex-row
+             justify-between items-center w-full ">
                 <p className="font-semibold ">{title}</p>
                 <div className={`flex gap-1 items-center rounded-4xl 
                     bg-[#B9F8CF] py-1 px-3 

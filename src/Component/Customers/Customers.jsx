@@ -6,7 +6,7 @@ const Customers = ({customers}) => {
     
     
     return (
-        <div className='grid grid-cols-1 md:grid-cols-2  gap-4 mt-5 mb-15'>
+        <div className='grid grid-cols-1 md:grid-cols-2  gap-4 mt-5 pb-15 '>
 
             {
                 getCustomers.map(customer => <Customer key={customer.id} customer={customer}></Customer>)

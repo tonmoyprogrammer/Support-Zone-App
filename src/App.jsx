@@ -18,10 +18,11 @@ function App() {
       <Navbar></Navbar>
       <Banner></Banner>
       <section className='bg-[#62738210]'>
-        <div className='max-w-11/12 mx-auto flex justify-between gap-5'>
+        <div className='max-w-11/12 mx-auto flex flex-col md:flex-row  justify-between gap-5
+       '>
 
-          <div className="w-[75%]">
-            <p className="font-semibold text-3xl text-gray-600">Customer Tickets</p>
+          <div className="w-[75%]  ">
+            <p className="font-semibold text-3xl text-gray-600 text-center md:text-left">Customer Tickets</p>
 
             <Suspense fallback={<span className="loading loading-dots loading-lg"></span>}>
               <Customers customers={getFetchData}></Customers>
@@ -30,7 +31,7 @@ function App() {
           </div>
 
           <div className="w-[25%]">
-            <p className="font-semibold text-3xl text-gray-600">Task Status</p>
+            <p className="font-semibold text-3xl text-gray-600 text-center md:text-left">Task Status</p>
           </div>
 
 
