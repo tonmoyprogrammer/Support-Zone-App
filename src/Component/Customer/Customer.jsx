@@ -1,6 +1,6 @@
 import './customer.css'
 
-const Customer = ({ customer}) => {
+const Customer = ({ customer,handleCount}) => {
     
     const {title,description,id,priority,status,createdAt} = customer;
 
@@ -20,11 +20,13 @@ const Customer = ({ customer}) => {
         const mediumPriority = cleanMediumPriority === "medium";
         const cleanLowPriority = priority.toLowerCase();
         const lowPriority = cleanLowPriority === "low";
+
+
         
        
     return (
-        <div className="rounded-2xl shadow-4xl bg-white p-5 space-y-3">
-            <div className="flex flex-col-reverse md:flex-row
+        <div  onClick={()=>handleCount(customer)} className="rounded-2xl shadow-2xl bg-white p-5 space-y-3">
+            <div  className="flex flex-col-reverse md:flex-row
              justify-between items-center w-full ">
                 <p className="font-semibold ">{title}</p>
                 <div className={`flex gap-1 items-center rounded-4xl 

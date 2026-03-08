@@ -1,6 +1,6 @@
 import React from 'react';
 import img1 from"../../assets/vector1.png"
-const Banner = () => {
+const Banner = ({count,resolved}) => {
     return (
         <div className='bg-[#62738210] py-20 '>
 
@@ -10,9 +10,9 @@ const Banner = () => {
             bg-gradient-to-r from-purple-600 via-purple-500 to-purple-800
              w-full rounded-3xl">
                <img src={img1} alt="" />
-                <div className="mx-auto text-center">
-                    <h2 className="text-2xl text-white">In-Progress</h2>
-                <h2 className='font-semibold text-white text-4xl'>0</h2>
+                <div className="mx-auto align-middle items-center text-center space-y-2">
+                <p className="text-2xl text-white">In Progress</p>
+                <p className='font-semibold text-white text-4xl'>{count.length}</p>
                 </div>
                <img src={img1} alt="" />
 
@@ -21,9 +21,9 @@ const Banner = () => {
             bg-gradient-to-r from-green-300 via-green-500  to-green-800
              w-full rounded-3xl">
                <img src={img1} alt="" />
-                <div className="text-center">
+                <div className="mx-auto text-center">
                     <p className="text-2xl text-white ">Resolved</p>
-                <h2 className='font-semibold text-white text-4xl'>0</h2>
+                <p className='font-semibold text-white text-4xl'>{resolved.length}</p>
                 </div>
                <img src={img1} alt="" />
 
